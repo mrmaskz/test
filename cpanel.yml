@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/bestz/public_html/filmtestsub.bestz.com
+    - /bin/cp testzzz.html $DEPLOYPATH
+    - /bin/cp public $DEPLOYPATH
